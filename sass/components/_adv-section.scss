@@ -1,0 +1,60 @@
+.s2__invinsible-heading {
+  display: none;
+}
+
+.advantages-list {
+  margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
+
+  &__item {
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 2);
+      margin-right: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 120px) / 4);
+    }
+  }
+
+  &__headings {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.714;
+    margin: 0;
+  }
+}
+
+.adv-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  &__svg {
+    width: 70px;
+    height: 70px;
+  }
+}
