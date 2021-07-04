@@ -48,11 +48,58 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="header__button">
+        <button data-menu-open type="button" class="header__button">
           <svg class="header__button-svg">
             <use href="./images/icons.svg#menu">
           </svg>
         </button>
+      </div>
+            <div data-menu class="mobile-menu is-hidden">
+        <nav class="mobile-menu__navigation">
+          <button data-menu-close type="button" class="mobile-menu__close">
+            <svg class="mobile-menu__close-svg">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu__nav-list list">
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link " href="./index.html">Студия</a>
+            </li>
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu__contacts-area">
+          <ul class="contact-list list">
+            <li class="contact-list__item">
+              <a class="contact-list__link-phone" href="tel:+380961111111"> +38 096 111 11 11 </a>
+            </li>
+            <li class="contact-list__item">
+              <a class="contact-list__link-mail" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="soc-list list">
+            <li class="soc-list__items">
+              <a class="soc-list__link" href="">Instagram</a>
+            </li>
+            <li class="soc-list__items">
+              <a class="soc-list__link" href="">Twitter</a>
+            </li>
+            <li class="soc-list__items">
+              <a class="soc-list__link" href="">Facebook</a>
+            </li>
+            <li class="soc-list__items">
+              <a class="soc-list__link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -150,7 +197,7 @@
 
                       <img
                         class="portfolio-list__img"
-                        src="./images/portfolio/poster.jpg"
+                        src="./images/portfolio/D_poster.jpg"
                         alt="Постер New Orlean vs Golden Star"
                       />
                     </picture>
@@ -450,7 +497,7 @@
 
                       <img
                         class="portfolio-list__img"
-                        src="./images/portfolio/project-lab.jpg"
+                        src="./images/portfolio/D_project-lab.jpg"
                         alt="Проект LAB"
                       />
                     </picture>
@@ -500,7 +547,7 @@
 
                       <img
                         class="portfolio-list__img"
-                        src="./images/portfolio/growing-buisness.jpg"
+                        src="./images/portfolio/D_growing-buisness.jpg"
                         alt="фото экрана с запущенным приложением Growing Business"
                       />
                     </picture>
@@ -590,4 +637,5 @@
       </div>
     </footer>
   </body>
+  <script src="./js/menu.js"></script>
 </html>
