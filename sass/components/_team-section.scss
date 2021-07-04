@@ -1,12 +1,13 @@
-.s4 {
+.s4-team {
   background-color: #f5f4fa;
 }
 
 .team-list {
+  margin-bottom: -30px;
   @media screen and (min-width: 768px) {
     display: flex;
-    margin-right: -30px;
     flex-wrap: wrap;
+    margin-right: -30px;
   }
   .social-list {
     .social-list__item {
@@ -32,6 +33,7 @@
   display: inline-block;
   box-shadow: 0 2px 1px #00000040;
   &__text-area {
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 16px;
   }

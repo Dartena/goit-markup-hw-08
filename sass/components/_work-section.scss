@@ -1,18 +1,9 @@
-.s3 {
+.s3-work {
   display: none;
   padding-top: 0;
   @media screen and (min-width: 1200px) {
     display: block;
   }
-}
-
-.section-heading {
-  color: var(--black);
-  font-size: 36px;
-  line-height: 1.166;
-  margin-bottom: 50px;
-  text-align: center;
-  margin-top: 0;
 }
 
 .work-type-list {

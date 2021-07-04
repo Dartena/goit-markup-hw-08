@@ -3,7 +3,6 @@
   font-style: normal;
   color: var(--main-font-color);
   letter-spacing: 0.03em;
-  margin: 0 auto;
 }
 
 .container {
@@ -33,4 +32,23 @@
 .list {
   list-style: none;
   padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-heading {
+  color: var(--black);
+  font-size: 28px;
+  line-height: 1.178;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.166;
+    margin-bottom: 50px;
+  }
 }

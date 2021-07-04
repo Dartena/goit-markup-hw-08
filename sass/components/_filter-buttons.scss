@@ -3,9 +3,13 @@
   flex-flow: row wrap;
   justify-content: start;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   @media screen and (min-width: 768px) {
     justify-content: center;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 35px;
   }
 
   li:not(:last-child) {

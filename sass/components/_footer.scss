@@ -48,7 +48,7 @@
     @media screen and (min-width: 1200px) {
       display: flex;
       margin-left: 70px;
-      justify-content: space-between;
+
       li:not(:last-child) {
         margin-right: 10px;
       }
@@ -85,6 +85,7 @@
   text-align: center;
   @media screen and (min-width: 1200px) {
     text-align: left;
+    // width: 230px;
   }
 }
 
@@ -99,6 +100,7 @@
   @media screen and (min-width: 1200px) {
     display: inline-block;
     margin-left: 70px;
+    text-align: left;
   }
 }
 
@@ -109,7 +111,7 @@
   @media screen and (min-width: 1200px) {
     display: block;
     margin-left: 93px;
-    width: 100%;
+    width: auto;
   }
 
   &__title {
@@ -144,13 +146,14 @@
     @media screen and (min-width: 1200px) {
       display: inline-block;
       width: 358px;
+      margin: 0;
     }
   }
   &__submit-button {
     display: flex;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     letter-spacing: 0.06em;
     align-items: center;
     padding: 10px 29px;
@@ -162,6 +165,7 @@
     margin: 0 auto;
     @media screen and (min-width: 1200px) {
       display: inline-flex;
+      margin: 0;
       margin-left: 12px;
     }
   }
