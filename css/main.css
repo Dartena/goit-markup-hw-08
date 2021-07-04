@@ -1201,9 +1201,9 @@ summary {
   display: -ms-flexbox;
   display: flex;
   padding: 0 32px 30px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-list__item .social-list__link {
